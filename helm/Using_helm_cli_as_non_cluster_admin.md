@@ -13,12 +13,13 @@ Login to your ICp instance:
 ```
 bx pr login
 ```
-Provide the user info to login: 
+Provide the user info to login:
 ![Login](./images/login.png)
 In this tutorial, I'm using `user1` who is a team administrator of `team1`. `team1`has `nsdev1`namespace as resource:
 
 
 Get cluster information:
+
 ```
 bx pr cluster-config mycluster
 ```
@@ -39,6 +40,7 @@ helm cli --tiller-namespace=nsdev1
 
 
 It will deploy a tiller instance in `nsdev1` namespace and the associated service.
+
 ![Helm init results](./images/result_helm_init.png)
 
 

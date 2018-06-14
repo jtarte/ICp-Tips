@@ -8,6 +8,7 @@ This repository contains differents tips an recipes related to IBM Cloud private
 
 #### Alerting, Monitoring & Meteting
 * [Access to prometheus console](./Alerting_Monitoring_Metering/Access_Prometheus_console.md)
+* [How to enable high availability for the IBM Cloud Private cluster monitoring service after initial installation](https://medium.com/ibm-cloud/how-to-enable-high-availability-for-monitoring-service-of-ibm-cloud-private-cluster-after-initial-4e9b8102b50)
 
 #### Integration
 * [Use IBM Cloud services from an app on IBM Cloud Private](https://www.ibm.com/cloud/garage/tutorials/use-ibm-cloud-services-from-ibm-cloud-private)
@@ -19,3 +20,4 @@ This repository contains differents tips an recipes related to IBM Cloud private
 
 #### Docker and registries
 * [Cleaning docker environment](./Docker/remove_all_images.md)
+* [Pulling images from a remote secure registry](./Docker/use_remote_secure_registry.md)

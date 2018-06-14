@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      hostNetwork: false
+      containers:
+      - name: nginx
+        image: registry.ng.bluemix.net/testcr-jt/nginx:1.0
+        ports: []
+        resources:
+          limits: {}
+      imagePullSecrets:
+        - name: mybxregistry

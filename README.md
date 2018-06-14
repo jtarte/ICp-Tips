@@ -24,3 +24,6 @@ This repository contains differents tips an recipes related to IBM Cloud private
 #### Docker and registries
 * [Cleaning docker environment](./Docker/remove_all_images.md)
 * [Pulling images from a remote secure registry](./Docker/use_remote_secure_registry.md)
+
+#### RBAC
+* [Add extra priviledges to an user](./RBAC/provide_additional_priviledges_to_user.md)

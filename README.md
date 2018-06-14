@@ -8,7 +8,7 @@ This repository contains differents tips an recipes related to IBM Cloud private
 
 #### Alerting, Monitoring & Meteting
 * [Access to prometheus console](./Alerting_Monitoring_Metering/Access_Prometheus_console.md)
-* [How to enable high availability for the IBM Cloud Private cluster monitoring service after initial installation](https://medium.com/ibm-cloud/how-to-enable-high-availability-for-monitoring-service-of-ibm-cloud-private-cluster-after-initial-4e9b8102b50)
+* [How to enable high availability for the IBM Cloud Private cluster monitoring service after initial installation (Medium article)](https://medium.com/ibm-cloud/how-to-enable-high-availability-for-monitoring-service-of-ibm-cloud-private-cluster-after-initial-4e9b8102b50)
 
 #### Integration
 * [Use IBM Cloud services from an app on IBM Cloud Private (IBM Garage tutorial)](https://www.ibm.com/cloud/garage/tutorials/use-ibm-cloud-services-from-ibm-cloud-private)

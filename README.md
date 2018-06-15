@@ -29,4 +29,4 @@ This repository contains differents tips an recipes related to IBM Cloud private
 * [Add extra priviledges to an user](./RBAC/provide_additional_priviledges_to_user.md)
 
 #### DevOps
-* [First steps with Jenkins on IBM Cloud private](./DevOps/my_first-steps_jenkins_icp.md)
+* [First steps with Jenkins on IBM Cloud private](./DevOps/my_first_steps_jenkins_icp.md)

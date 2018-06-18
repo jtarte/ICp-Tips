@@ -1,6 +1,6 @@
 # ICp-Tips
 
-This repository contains differents tips an recipes related to IBM Cloud private(ICp).
+This repository contains different tips an recipes related to IBM Cloud private(ICp).
 
 
 #### Helm

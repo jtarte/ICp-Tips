@@ -26,7 +26,7 @@ This repository contains different tips an recipes related to IBM Cloud private(
 * [Pulling images from a remote secure registry](./Docker/use_remote_secure_registry.md)
 
 #### RBAC
-* [Add extra priviledges to an user](./RBAC/provide_additional_priviledges_to_user.md)
+* [Add extra permissions to an user](./RBAC/provide_additional_priviledges_to_user.md)
 
 #### DevOps
 * [First steps with Jenkins on IBM Cloud private](./DevOps/my_first_steps_jenkins_icp.md)

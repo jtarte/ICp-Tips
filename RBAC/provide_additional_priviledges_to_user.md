@@ -32,22 +32,21 @@ kubectl apply -f developer-clusterroles.yaml
 ```
 4. Check the `clusterroles`.
 ```
-kubectl get clusterrolebindings
+kubectl get clusterroles
 ```
 ![clusterroles list](./images/rbac_add_priviledges_2.png)
 
 5. Create the role binding for `tadeveloper`on clusterroles `icp:develop`.
 ```
-kubectl create rolebinding icp:teama:developer --clusterole=icp:develop --user=https://mycluster.icp:9443/oidc/endpoint/OP#tadeveloper --namespace=nsta
+kubectl create rolebinding icp:teama:developer --clusterrole=icp:develop --user=https://mycluster.icp:9443/oidc/endpoint/OP#tadeveloper --namespace=nsta
 ```
-![role binding](./images/rbac_add_priviledges_4.png)
   The name of user is not the id used for the login but the oidc endpoint name. In this sample, tadeveloper has, as name, `https://mycluster.icp:9443/oidc/endpoint/OP#tadeveloper`.
 
 6. Check the role binding on your target namespace.
 ```
 kubectl describe rolebindings icp:teama:developer -n nsta
 ```
-![role description](./images/rbac_add_priviledges_5.png)
+![role description](./images/rbac_add_priviledges_8.png)
 
 7. verify that `tadeveloper could now push images on the ICp image registry.
 ![pushing images](./images/rbac_add_priviledges_7.png)

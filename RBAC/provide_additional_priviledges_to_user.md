@@ -48,7 +48,7 @@ kubectl describe rolebindings icp:teama:developer -n nsta
 ```
 ![role description](./images/rbac_add_priviledges_8.png)
 
-7. verify that `tadeveloper could now push images on the ICp image registry.
+7. verify that `tadeveloper` could now push images on the ICp image registry.
 ![pushing images](./images/rbac_add_priviledges_7.png)
 
 Basically, as tadeveloper was created as a viewer, he could not initially push images to the registry. But by binding him to the `icp:develop` cluster role in his namespace `nsta`, he could now push images to namespace `nsta`.

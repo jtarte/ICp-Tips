@@ -27,6 +27,7 @@ This repository contains different tips an recipes related to IBM Cloud private(
 
 #### RBAC
 * [Add extra permissions to an user](./RBAC/provide_additional_priviledges_to_user.md)
+* [Identify your permissions on IBM Cloud Private (Medium article)](https://medium.com/ibm-cloud/identify-your-permissions-on-ibm-cloud-private-31f680b4b182)
 
 #### DevOps
 * [First steps with Jenkins on IBM Cloud private](./DevOps/my_first_steps_jenkins_icp.md)

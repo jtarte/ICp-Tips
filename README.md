@@ -3,6 +3,9 @@
 This repository contains different tips an recipes related to IBM Cloud private(ICp).
 
 
+#### admin
+* [3 ways to configure kubectl client on IBM Cloud Private](https://medium.com/ibm-cloud/choose-your-way-to-configure-kubectl-client-on-ibm-cloud-private-77ef2e210576)
+
 #### Helm
 * [Using the helm cli as non cluster-admin user](./helm/Using_helm_cli_as_non_cluster_admin.md)
 

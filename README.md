@@ -1,9 +1,9 @@
-# ICp-Tips
+# ICP-Tips
 
 This repository contains different tips an recipes related to IBM Cloud private(ICp).
 
 
-#### admin
+#### Admin
 * [3 ways to configure kubectl client on IBM Cloud Private](https://medium.com/ibm-cloud/choose-your-way-to-configure-kubectl-client-on-ibm-cloud-private-77ef2e210576)
 
 #### Helm
@@ -21,7 +21,7 @@ This repository contains different tips an recipes related to IBM Cloud private(
 * [Backup/Restore procedure (other Github entry)](https://github.com/ibm-cloud-architecture/icp-backup)
 
 #### API
-* [Use ICp API from command line](./API/use_api_cmd_line.md)
+* [Use ICP API from command line](./API/use_api_cmd_line.md)
 * [explore ICp Identity Management API](./API/access_idmgmt_api.md)
 
 #### Docker and registries
@@ -33,4 +33,4 @@ This repository contains different tips an recipes related to IBM Cloud private(
 * [Identify your permissions on IBM Cloud Private (Medium article)](https://medium.com/ibm-cloud/identify-your-permissions-on-ibm-cloud-private-31f680b4b182)
 
 #### DevOps
-* [First steps with Jenkins on IBM Cloud private](./DevOps/my_first_steps_jenkins_icp.md)
+* [First steps with Jenkins on IBM Cloud Private](./DevOps/my_first_steps_jenkins_icp.md)

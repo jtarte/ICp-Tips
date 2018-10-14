@@ -69,7 +69,7 @@ echo
 ## execute kubectl commands to connect to ICP environment
 kubectl config set-cluster "${CLUSTER}" --server="https://${SERVER}:8001" --insecure-skip-tls-verify=true
 kubectl config set-context "${CLUSTER}-context" --cluster="${CLUSTER}"
-kubectl config set-credentials "${USER}" --token="${TOKEN}"
+kubectl config set-credentials "${ICPUSER}" --token="${TOKEN}"
 kubectl config set-context "${CLUSTER}-context" --user="${ICPUSER}" --namespace="${NAMESPACE}"
 kubectl config use-context "${CLUSTER}-context"
 echo
